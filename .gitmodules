@@ -7,3 +7,6 @@
 [submodule "bundle/supertab"]
 	path = pack/jason/start/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "pack/jason/start/vim-fugitive"]
+	path = pack/jason/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
