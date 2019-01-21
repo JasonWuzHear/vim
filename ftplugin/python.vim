@@ -1,3 +1,4 @@
-autocmd FileType python set sw=4
-autocmd FileType python set ts=4
-autocmd FileType python set sts=4
+set tabstop=4
+set expandtab
+set shiftwidth=4
+set softtabstop=4
