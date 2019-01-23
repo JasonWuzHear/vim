@@ -15,3 +15,8 @@ let g:NERDTreeMapPreview="<F4>"
 set autochdir
 let NERDTreeChDirMode=2
 nnoremap <leader>n :NERDTree .<CR>
+
+" ALE
+let g:ale_linters = {
+\ 'cs': ['OmniSharp']
+\}

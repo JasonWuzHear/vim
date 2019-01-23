@@ -1,17 +1,17 @@
 [submodule "bundle/vim-sensible"]
-	path = pack/vim-sensible/start/vim-sensible
+	path = pack/interface/start/vim-sensitive
 	url = https://github.com/tpope/vim-sensible.git
 [submodule "bundle/dracula-theme"]
-	path = pack/dracula-theme/start/dracula-theme
+	path = pack/themes/start/dracula-theme
 	url = git@github.com:dracula/vim.git
 [submodule "bundle/supertab"]
 	path = pack/supertab/start/supertab
 	url = git@github.com:ervandew/supertab.git
 [submodule "pack/jason/start/vim-fugitive"]
-	path = pack/vim-fugitive/start/vim-fugitive
+	path = pack/interface/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
 [submodule "pack/jason/start/nerdtree"]
-	path = pack/nerdtree/start/nerdtree
+	path = pack/interface/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree
 [submodule "pack/jason/start/vim-tmux-navigator"]
 	path = pack/vim-tmux-navigator/start/vim-tmux-navigator
@@ -20,5 +20,11 @@
 	path = pack/SimpylFold/start/SimpylFold
 	url = git@github.com:tmhedberg/SimpylFold.git
 [submodule "pack/flake8/start/flake8"]
-	path = pack/flake8/start/flake8
+	path = pack/linting/start/flake8
 	url = git@github.com:nvie/vim-flake8.git
+[submodule "pack/omnisharp-vim/start/omnisharp-vim"]
+	path = pack/linting/start/omnisharp-vim
+	url = git://github.com/OmniSharp/omnisharp-vim.git
+[submodule "pack/ale/start/ale"]
+	path = pack/linting/start/ale
+	url = https://github.com/w0rp/ale.git
