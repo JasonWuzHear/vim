@@ -1,7 +1,8 @@
 # vim
 vim config
 
-# Symlinking:
-Make sure to link your vimrc file.
+1. git submodule init
+2. git submodule update
+3. `ln -sfn ~/dotfiles/vim ~/.vim`
+4. 'ln -sf ~/dotfiles/vim/vimrc ~/.vimrc'
 
-`ln -s ~/.vim/vimrc ~/.vimrc`
