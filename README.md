@@ -1,8 +1,9 @@
 # vim
 vim config
+```
+git submodule init
+git submodule update
 
-1. git submodule init
-2. git submodule update
-3. `ln -sfn ~/dotfiles/vim ~/.vim`
-4. 'ln -sf ~/dotfiles/vim/vimrc ~/.vimrc'
-
+ln -sfn ~/dotfiles/vim ~/.vim
+\ln -sf ~/dotfiles/vim/vimrc ~/.vimrc
+```
