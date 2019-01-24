@@ -3,10 +3,10 @@
 	url = https://github.com/tpope/vim-sensible.git
 [submodule "bundle/dracula-theme"]
 	path = pack/themes/start/dracula-theme
-	url = git@github.com:dracula/vim.git
+	url = git://github.com/dracula/vim.git
 [submodule "bundle/supertab"]
 	path = pack/supertab/start/supertab
-	url = git@github.com:ervandew/supertab.git
+	url = git://github.com/ervandew/supertab.git
 [submodule "pack/jason/start/vim-fugitive"]
 	path = pack/interface/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
@@ -18,10 +18,10 @@
 	url = https://github.com/christoomey/vim-tmux-navigator
 [submodule "pack/jason/start/SimpylFold"]
 	path = pack/SimpylFold/start/SimpylFold
-	url = git@github.com:tmhedberg/SimpylFold.git
+	url = git://github.com/tmhedberg/SimpylFold.git
 [submodule "pack/flake8/start/flake8"]
 	path = pack/linting/start/flake8
-	url = git@github.com:nvie/vim-flake8.git
+	url = git://github.com/nvie/vim-flake8.git
 [submodule "pack/omnisharp-vim/start/omnisharp-vim"]
 	path = pack/linting/start/omnisharp-vim
 	url = git://github.com/OmniSharp/omnisharp-vim.git
