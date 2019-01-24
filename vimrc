@@ -7,5 +7,7 @@ set foldlevel=99
 " Enable folding using spacebar
 nnoremap <space> za
 
-" This script contains plugin specific settings
-source ~/.vim/plugins.vim
+" Source all files in rc directory:
+for f in split(glob('~/.vim/vimrc.d/*.vim'), '\n')
+	exe 'source' f
+endfor
