@@ -44,3 +44,11 @@ set completeopt=longest,menuone,preview
 " Set desired preview windows height for viewing documentation. You might also
 " want to look at the echodoc plugin.
 set previewheight=5
+"""
+
+
+" Powerline
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
+"""
