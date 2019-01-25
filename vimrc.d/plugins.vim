@@ -27,7 +27,7 @@ let g:ale_linters = {
 
 " working with WSL:
 " https://github.com/OmniSharp/omnisharp-vim#windows-subsystem-for-linux-wsl
-let g:OmniSharp_server_path = '/mnt/c/OmniSharp/omnisharp.http-win-x64/OmniSharp.exe'
+let g:OmniSharp_server_path = '/c/OmniSharp/omnisharp.http-win-x64/OmniSharp.exe'
 let g:OmniSharp_translate_cygwin_wsl = 1
 
 " OmniSharp won't work without this setting
