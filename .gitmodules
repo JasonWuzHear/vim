@@ -28,3 +28,6 @@
 [submodule "pack/linting/start/omnisharp-vim"]
 	path = pack/linting/start/omnisharp-vim
 	url = ../omnisharp-vim
+[submodule "pack/tools/start/vim-dispatch"]
+	path = pack/tools/start/vim-dispatch
+	url = https://tpope.io/vim/dispatch.git
