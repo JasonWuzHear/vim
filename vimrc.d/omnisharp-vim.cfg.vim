@@ -86,3 +86,5 @@ nnoremap <Leader>sp :OmniSharpStopServer<CR>
 
 " Enable snippet completion
 " let g:OmniSharp_want_snippet=1
+
+let g:OmniSharp_selector_ui = ''
