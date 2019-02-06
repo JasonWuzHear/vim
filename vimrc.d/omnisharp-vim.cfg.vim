@@ -34,10 +34,6 @@ let g:OmniSharp_highlight_types = 1
 augroup omnisharp_commands
     autocmd!
 
-    " When Syntastic is available but not ALE, automatic syntax check on events
-    " (TextChanged requires Vim 7.4)
-    " autocmd BufEnter,TextChanged,InsertLeave *.cs SyntasticCheck
-
     " Show type information automatically when the cursor stops moving
     autocmd CursorHold *.cs call OmniSharp#TypeLookupWithoutDocumentation()
 
@@ -88,3 +84,22 @@ nnoremap <Leader>sp :OmniSharpStopServer<CR>
 " let g:OmniSharp_want_snippet=1
 
 let g:OmniSharp_selector_ui = ''
+
+" Set Code Actions Available flag
+set updatetime=500
+
+sign define OmniSharpCodeActions text=💡
+
+augroup OSCountCodeActions
+    autocmd!
+    autocmd! FileType cs set signcolumn=yes
+    autocmd CursorHold *.cs call OSCountCodeActions()
+augroup END
+
+function! OSCountCodeActions() abort
+    if OmniSharp#CountCodeActions({-> execute('sign unplace 99')})
+        let l = getpos('.')[1]
+        let f = expand('%:p')
+        execute ':sign place 99 line='.l.' name=OmniSharpCodeActions file='.f
+    endif
+endfunction
