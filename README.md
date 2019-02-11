@@ -9,5 +9,5 @@ ln -sfn ~/dotfiles/vim ~/.vim
 
 mkdir -p ~/.omnisharp/omnisharp.http-linux-x64 
 \&& cd ~/.omnisharp/omnisharp.http-linux-x64 
-\&& { curl -sL https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.32.1/omnisharp-linux-x64.tar.gz | tar xz ; cd -; }
+\&& { curl -sL https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.32.1/omnisharp.http-linux-x64.tar.gz | tar xz ; cd -; }
 ```
