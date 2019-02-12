@@ -6,3 +6,6 @@ setlocal expandtab
 setlocal autoindent
 setlocal fileformat=unix
 setlocal smarttab
+
+let b:ale_linters = ['pyls']
+let b:ale_fixers = ['yapf', 'isort']

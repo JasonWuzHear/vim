@@ -19,9 +19,9 @@
 [submodule "pack/themes/start/nord-vim"]
 	path = pack/themes/start/nord-vim
 	url = https://github.com/arcticicestudio/nord-vim.git
+[submodule "pack/linting/start/omnisharp-vim"]
+	path = pack/linting/start/omnisharp-vim
+	url = ../omnisharp-vim
 [submodule "pack/linting/start/ale"]
 	path = pack/linting/start/ale
 	url = https://github.com/w0rp/ale.git
-[submodule "pack/linting/start/omnisharp-vim"]
-	path = pack/linting/start/omnisharp-vim
-	url = https://github.com/OmniSharp/omnisharp-vim.git

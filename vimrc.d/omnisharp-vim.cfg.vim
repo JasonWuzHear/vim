@@ -25,7 +25,8 @@ set previewheight=5
 " Tell ALE to use OmniSharp for linting C# files, and no other linters.
 let g:ale_linters = { 'cs': ['OmniSharp'] }
 
-let g:OmniSharp_server_path = '~/.omnisharp/omnisharp.http-linux-x64/omnisharp/OmniSharp.exe'
+let g:OmniSharp_server_path = '/c/OmniSharp/omnisharp.http-win-x64/OmniSharp.exe'
+let g:OmniSharp_translate_cygwin_wsl = 1
 
 " Fetch semantic type/interface/identifier names on BufEnter and highlight them
 let g:OmniSharp_highlight_types = 1
