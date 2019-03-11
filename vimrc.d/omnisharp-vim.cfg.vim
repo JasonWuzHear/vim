@@ -88,7 +88,7 @@ let g:OmniSharp_selector_ui = ''
 " Set Code Actions Available flag
 set updatetime=500
 
-sign define OmniSharpCodeActions text=💡
+sign define OmniSharpCodeActions text=#
 
 augroup OSCountCodeActions
     autocmd!
