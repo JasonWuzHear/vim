@@ -31,3 +31,6 @@
 [submodule "pack/interface/start/vim-airline-themes"]
 	path = pack/interface/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/interface/start/nerdcommenter"]
+	path = pack/interface/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
