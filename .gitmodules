@@ -25,3 +25,9 @@
 [submodule "pack/linting/start/ale"]
 	path = pack/linting/start/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "pack/interface/start/vim-airline"]
+	path = pack/interface/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/interface/start/vim-airline-themes"]
+	path = pack/interface/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
