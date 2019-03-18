@@ -7,6 +7,9 @@ set foldlevel=99
 " Enable folding using spacebar
 nnoremap <space> za
 
+" Set wildcard ignores
+set wildignore+=*.pyc,*.o,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*,*.meta
+
 " better placement of swp files
 set backupdir=/tmp//
 set directory=/tmp//
