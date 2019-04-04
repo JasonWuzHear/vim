@@ -34,3 +34,6 @@
 [submodule "pack/interface/start/nerdcommenter"]
 	path = pack/interface/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "pack/linting/start/editorconfig-vim"]
+	path = pack/linting/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
